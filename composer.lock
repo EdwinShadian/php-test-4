@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4a390fe4750188c7d3986c03717f23bb",
+    "packages": [
+        {
+            "name": "rundiz/nested-set",
+            "version": "v0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Rundiz/nested-set.git",
+                "reference": "825ba8b29650bb1b4b7cdf16144e3490bfb2085b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Rundiz/nested-set/zipball/825ba8b29650bb1b4b7cdf16144e3490bfb2085b",
+                "reference": "825ba8b29650bb1b4b7cdf16144e3490bfb2085b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Rundiz\\NestedSet\\": "Rundiz/NestedSet"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vee W.",
+                    "email": "kawewong@gmail.com",
+                    "homepage": "http://rundiz.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "class library for CRUD the nested set data such as category tree.",
+            "keywords": [
+                "categories",
+                "category",
+                "category tree",
+                "hierarchy",
+                "nested model",
+                "nested set",
+                "nested tree",
+                "sub categories",
+                "sub category",
+                "tree model"
+            ],
+            "time": "2016-08-27T12:14:06+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
