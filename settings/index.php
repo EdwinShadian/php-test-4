@@ -1,4 +1,7 @@
 <?php
+/**
+ * Дублирование кода с config.php
+ */
 $db['dsn'] = 'mysql:dbname=category_tz;host=localhost;port=3306;charset=UTF8';
 $db['username'] = 'root';
 $db['password'] = '';

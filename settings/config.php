@@ -1,4 +1,7 @@
 <?php
+/**
+ * Дублирование кода с index.php
+ */
 require_once __DIR__ . './../vendor/autoload.php';
 
 $db['dsn'] = 'mysql:dbname=category_tz;host=localhost;port=3306;charset=UTF8';

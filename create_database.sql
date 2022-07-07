@@ -27,6 +27,12 @@ SET time_zone = "+00:00";
 -- Структура таблицы `categories`
 --
 
+/*
+В эту таблицу невозможно ничего вставить теми функциями, которые описаны в проекте.
+Причина: все поля имеют свойство NOT NULL. Простановкой полей level, left, right занимается метод NestedSet->rebuild().
+Его нужно запускать после вставки нового узла в дерево. Однако мы и вставить не сможем из-за требований NOT NULL.
+*/
+
 CREATE TABLE `categories` (
   `id` int(255) NOT NULL,
   `left` int(255) NOT NULL,
@@ -41,10 +47,12 @@ CREATE TABLE `categories` (
 --
 -- Индексы сохранённых таблиц
 --
-
 --
 -- Индексы таблицы `categories`
 --
+/*
+Это можно сделать на этапе создания таблицы. Некритично, но улучшило бы понимание
+*/
 ALTER TABLE `categories`
   ADD PRIMARY KEY (`id`);
 
@@ -55,6 +63,9 @@ ALTER TABLE `categories`
 --
 -- AUTO_INCREMENT для таблицы `categories`
 --
+/*
+Это можно сделать на этапе создания таблицы. Некритично, но улучшило бы понимание
+*/
 ALTER TABLE `categories`
   MODIFY `id` int(255) NOT NULL AUTO_INCREMENT;
 COMMIT;

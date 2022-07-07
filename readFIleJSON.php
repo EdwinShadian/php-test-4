@@ -1,6 +1,9 @@
-<?php 
+<?php
 
-
+/**
+ * Неиспользуемый файл - вся логика в файле readFileInjected.php
+ * Выглядит, как просто обрывок то ли теста, то ли недописанной логики. Удалить
+ */
 
 require_once __DIR__.'/settings/config.php';
   $fileContent = 'id,category,parent_id';
